@@ -177,10 +177,10 @@ main {
   font-size: 1rem;
   cursor: pointer;
   font-weight: 200;
-  transition: all 0.2s;
+/*   transition: all 0.2s; */
   background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+/*   backdrop-filter: blur(10px); */
   padding: 0.4rem 2rem;
   /* border-radius: 20rem; */
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -193,7 +193,6 @@ main {
 }
 
 .btn--new {
-  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,7 +201,6 @@ main {
   top: 4rem;
   z-index: 2;
   left: 320px;
-  /* overflow: visible; */
   margin-right: 0;
   padding: 10px;
   text-align: center;
